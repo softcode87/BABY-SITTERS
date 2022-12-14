@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 2, 48);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    size: 300px;
+    border-left: navy;
+    border-right: 2px solid green;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: coral;
+}
+.username{
+    margin-bottom: 50px;
+}
+.username span{
+    color: rgb(182, 15, 23);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.password{
+    margin-bottom: 50px;
+}
+.password span{
+    color: rgb(182, 15, 23);
+    font-size: 20px;
+}
+
+input{
+    color: aqua;
+    border: none;
+    background: rgb(75, 20, 20);
+    background-size: 40px;
+    border-radius: 15px;
+    height: 40px;
+    width: 300px;
+}
+.links{
+}
+.links a{
+    font-size: 20px;
+    color: #c59090;
+    text-decoration: none;
+    margin: 12px 0 25px;
+    justify-content: space-between;
+}
+.links a:nth-child(2){
+    color: #da1515;
+}
+.button{
+ margin-top: 35px;
+ align-items: flex-start;
+ 
+}
+button{
+    background: #da1515;
+    font-size: 15px;
+    padding: 8px 12px;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    width: 150px;
+}
+.fgp{
+    margin-right: 100px;
+}
+button:hover{
+    border: 1px solid #da1515;
+    background: transparent;
+}
+.links a:hover{
+    color: #28eb0e;
+    transition: .3s;
+}

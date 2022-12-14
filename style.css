@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: FuturaStd-Book,Helvetica,Arial,sans-serif;
+    color: #54575a;
+    background-image: url("back1.pg");
+    background-size: cover;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: transparent;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    border: transparent;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    border: transparent;
+}
+button{
+    color: brown;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    margin-right: 15px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+ 
+.plain{
+    background: none;
+    border-radius: 0;
+    border-color: transparent;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.shade{
+}
+nav ul li a:hover{
+    color: rgb(0, 255, 64);
+}
+button:hover{
+    color: chartreuse;
+    background-color: rgb(179, 235, 27);
+}
+.plain:hover{
+    background: transparent;
+    color: rgb(140, 233, 240);
+    font-size: 20px;
+}
+.home1{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 80px;
+
+
+}
+.home{
+    padding: 100px;
+}
+.home h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.home2{
+    position: relative;
+    display: block;
+}
+.home2 img{
+    width: 450px;
+    height: 300px;
+    margin-top: 70px;
+}
+.home2 img:hover .servicez p {
+    bottom: 0;
+    height: 100%;
+}
+.join{
+    margin-top: 110px;
+    margin-left: 170px;
+    color:rgb(179, 152, 4);
+    width: 120px;
+    height: 40px;
+
+}
+.join:hover{
+    background-color: rgb(102, 255, 0);
+}
+.join a{
+    text-decoration: none;
+    
+}
+.services{
+    display: flex;
+    padding-top: 70px;    
+
+}
+.text{
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+}
+.servicez p{
+    display: none;
+}
+.servicez h2{
+    padding: 10px;
+    margin-left: 80px;
+
+}
+.servicez{
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    width: 500px;
+}
+.img1{
+    margin-left: 20px;
+    display: inline-block;
+}
+.img1 img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 320px;
+    width: 320px;
+
+}
+.long {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 250px;
+    width: 320px;
+
+}
+.div2{
+    display: block;
+    margin-left: 200px;
+}
+.imgz{
+    margin-left: 150px;
+}
+.about{
+    height: 488px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+
+}
+.abt{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    font-size: 30px;
+    align-items: center;
+
+}
+.abt p{
+    margin-left: 40px;
+}
+.blog{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    padding:0,50px;
+}
+.blogg{
+    margin-right: 30px;
+    word-spacing: 4px;
+
+}
+.blogg p{
+    margin-right: 200px;
+    color: blue;
+
+}
+.login{
+    display: none;
+
+}
+.sendbtn{
+    width: 200px;
+    background-color: rgb(35, 77, 22);
+    margin-top: 10px;
+}
+.sendbtn:hover{
+    background: transparent;
+    color: #da1515;
+}
+.rvw{
+    height: 495px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+.reviews{
+    width: 100px;
+    height: 50px;
+    padding: 0 200px 0;
+    text-align: center;
+}
+.reviews h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+.footer-links{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+
+}
+.additional-links li{
+    list-style: none;
+    padding: 10px;
+}
+.additional-links a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    line-height: 2px;
+}
+.additional-links a:hover{
+    color: rgb(10, 241, 10);
+}
+.blogposts li{
+    list-style: none;
+    padding: 3px;
+
+}
+.blogposts a{
+    text-decoration: none;
+    padding:10px 0;
+    font-size: 20px;
+    color: black;
+}
+.blogposts a:hover{
+    color: rgb(40, 224, 15);
+
+}
+.flex{
+    display: flex;
+    padding-left: 70px;
+}
+
+.contact{
+    margin-left: 150px;
+
+}
+.newsletter-form h1{
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.newsletter-form{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.additional-links{
+    margin-left: 150px;
+}
+.blogposts{
+    margin-left: 100px;
+
+}
+.social{
+    display: flex;
+    padding-top: 50px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.social img:hover{
+    background: burlywood;
+}
+.inputs{
+    padding-bottom: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.form label{
+    font-size: 15px;
+    color: #da1515;
+}
+.form span input{
+    width: 500px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    size: 300px;
+    border-left: navy;
+    border-right: 2px solid green;
+}
+.container h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: coral;
+}
+.username{
+    margin-bottom: 50px;
+}
+.username span{
+    color: rgb(182, 15, 23);
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.password{
+    margin-bottom: 50px;
+}
+.password span{
+    color: rgb(182, 15, 23);
+    font-size: 17px;
+}
+
+input{
+    color: aqua;
+    border: none;
+    background: rgb(75, 20, 20);
+    background-size: 40px;
+    border-radius: 15px;
+    height: 30px;
+    width: 300px;
+}
+.links{
+    padding:20px;
+}
+.links a{
+    font-size: 20px;
+    color: #c59090;
+    text-decoration: none;
+    margin: 12px 0 25px;
+    justify-content: space-around;
+}
+.links a:nth-child(2){
+    color: #da1515;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.footer p{
+    color: rgb(11, 230, 146);
+    font-size: 25px;
+     font-weight: bolder;
+}
+
+.icon{
+}
+
+@media  and(max-width: 500px) {
+    ul{
+    display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .nav.open{
+        display: block;
+    }
+}
